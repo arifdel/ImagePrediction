@@ -22,7 +22,7 @@ storage=firebase.storage()
 apps = Flask(__name__)
 api = Api(apps)
 
-app = ClarifaiApp(api_key='8d0acbf6536d4cd1bfca14e99b3aa8ca')
+app = ClarifaiApp(api_key='###################') #Using Clarifai API
 
 @apps.route('/', methods=['GET'])
 def get_info():
