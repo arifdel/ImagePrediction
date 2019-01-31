@@ -10,14 +10,7 @@ import pyrebase
 
 logger = logging.getLogger(__name__)
 
-config = {
-    "apiKey": "AIzaSyC8NZSJ-PTtz6KcGyMC8ifUtK2Pkp13FWE",
-    "authDomain": "food-recognition-1159f.firebaseapp.com",
-    "databaseURL": "https://food-recognition-1159f.firebaseio.com",
-    "projectId": "food-recognition-1159f",
-    "storageBucket": "food-recognition-1159f.appspot.com",
-    "messagingSenderId": "257470759667"
-    }
+#config= please use your config details
 
 firebase = pyrebase.initialize_app(config)
 
